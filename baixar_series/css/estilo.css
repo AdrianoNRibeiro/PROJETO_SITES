@@ -20,7 +20,7 @@ header {
 
 
 header > picture > img {
-    width: 1100px;
+    width: 65.3%;
     height: 300px;
     
 }
@@ -43,9 +43,10 @@ header > p {
 
 nav {
     text-align: center;
-    margin-top: 4px;
+    margin-top: 2px;
     padding: 30px;
     margin-bottom: 10px; 
+  
 }
 
 nav > ul {
@@ -63,6 +64,7 @@ nav > ul > li > a {
     font-family: 'Lexend Exa', sans-serif;
     color: rgb(192, 189, 18);
     border: 0.2px solid rgba(255, 255, 255, 0.151);
+    border-radius: 2px;
     padding: 15.1px;
     padding-bottom: 20px;
     background-color: #000000;
@@ -73,6 +75,17 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     background-color: rgb(19, 13, 13);
 }
+
+input {
+    padding: 2px;
+    
+}
+
+button {
+    padding: 2px;
+    
+}
+
 section {
     border: 1px solid black;
     
