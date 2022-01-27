@@ -1,8 +1,33 @@
 @charset "UTF-08";
 
+@font-face {
+    font-family: 'Eletrical';
+    src: url('fontes/electrical.ttf')
+    format('truetype');
+    
+}
+
+@font-face {
+    font-family: 'cinema';
+    src: url('fontes/cinema_st.ttf')
+    format('truetype');
+   
+}
+
 
 :root {
-    
+
+    /*Cores*/
+    --corfundo: #151B27;
+    --cor01: #4C919C;
+    --cor02: #395D75;
+    --cor03: #1E203D;
+    --cor04: #1E1933;
+
+    /*Fontes*/
+    --font_titulo: 'Eletrical';
+    --font_titulo2: 'cinema', cursive;
+
 }
 
 * {
@@ -10,3 +35,7 @@
     padding: 0px;
 }
 
+h1 {
+    font-family: var(--font_titulo2);
+
+}
